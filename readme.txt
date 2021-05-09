@@ -1,4 +1,4 @@
-Put together a website for my mom's herapy business. 
+Put together a website for my mom's therapy business. 
 
 teresafostertherapy.com
 
