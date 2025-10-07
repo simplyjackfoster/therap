@@ -1,0 +1,13 @@
+{
+  "name": "teresafostertherapy",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "http-server -c-1 -p 8080 .",
+    "lighthouse": "scripts/run-lighthouse.sh"
+  },
+  "devDependencies": {
+    "@lhci/cli": "^0.12.0",
+    "http-server": "^14.1.1"
+  }
+}
