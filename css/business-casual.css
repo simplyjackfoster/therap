@@ -512,7 +512,7 @@ ol {
   padding: var(--space-sm) var(--space-md);
   background: rgba(111, 140, 123, 0.08);
   margin: 0 0 var(--space-md);
-  color: var(--color-text);
+  color: #ccd2d0;
   border-radius: var(--radius-md);
 }
 
