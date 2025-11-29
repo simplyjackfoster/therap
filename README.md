@@ -15,6 +15,14 @@ A responsive, accessibility-first marketing site for Teresa R. Foster’s counse
 - CTA clicks (`book_consult_click`), phone link taps (`call_click`), contact submissions, and portal visits emit GA4 events.
 - LocalBusiness schema is injected via `js/main.js`. Update the object there if business details change.
 
+### Setting up Google Analytics 4
+
+1. In Google Analytics, create (or confirm) the GA4 property and web data stream, then copy the Measurement ID (Admin → Data streams → Web → Measurement ID).
+2. On each root-level HTML page (e.g., `index.html`, `counseling.html`), set the `data-analytics-id` attribute on the `<html>` tag to your Measurement ID (format: `G-XXXXXXXXXX`). This site already uses `G-SGB80BEZT4`.
+3. You do **not** need to paste the full GA snippet into the HTML because `js/main.js` loads `gtag.js` and calls `gtag('config', <Measurement ID>)` automatically based on the attribute.
+4. In the GA UI, turn on **Enhanced measurement** for page views. Mark `book_consult_click`, `call_click`, `contact_submit`, and `cta_variant_impression` as **Conversions** once data flows so they appear in the main reports.
+5. Deploy the site, then verify in Google Analytics → Reports → Realtime that `page_view` and the custom events are arriving from your visits.
+
 ## Client portal configuration
 
 - Set `data-portal-url` on `<body>` to the IntakeQ (or other HIPAA-compliant) portal URL.
