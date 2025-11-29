@@ -511,6 +511,7 @@ ol {
   border-left: 4px solid var(--color-primary);
   padding: var(--space-sm) var(--space-md);
   background: rgba(111, 140, 123, 0.08);
+  color: #f4f6f5;
   border-radius: var(--radius-md);
   margin-bottom: var(--space-md);
 }
