@@ -510,8 +510,8 @@ ol {
   font-size: 0.95rem;
   border-left: 4px solid var(--color-primary);
   padding: var(--space-sm) var(--space-md);
-  background: rgba(111, 140, 123, 0.08);
-  color: #f4f6f5;
+  background: #f6fbf8;
+  color: var(--color-text);
   border-radius: var(--radius-md);
   margin-bottom: var(--space-md);
 }
