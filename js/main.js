@@ -29,7 +29,6 @@ document.addEventListener('DOMContentLoaded', () => {
     'name': 'Teresa R. Foster, L.C.S.W.',
     'url': 'https://teresafostertherapy.com/',
     'image': 'https://teresafostertherapy.com/img/teresa.jpg',
-    'telephone': '+1-812-320-3326',
     'email': 'tfosterlcsw@gmail.com',
     'priceRange': '$$',
     'address': {
