@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     '@id': 'https://teresafostertherapy.com/#practice',
     'name': 'Teresa R. Foster, L.C.S.W.',
     'url': 'https://teresafostertherapy.com/',
-    'image': 'https://teresafostertherapy.com/img/teresa.jpg',
+    'image': 'https://teresafostertherapy.com/img/IMG_4086.jpeg',
     'email': 'tfosterlcsw@gmail.com',
     'priceRange': '$$',
     'address': {
