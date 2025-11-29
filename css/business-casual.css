@@ -718,6 +718,25 @@ ol {
   }
 }
 
+@media (max-width: 640px) {
+  :root {
+    --header-height: 60px;
+  }
+
+  .header__inner {
+    padding: 0.5rem 1rem;
+    gap: var(--space-sm);
+  }
+
+  .brand__name {
+    font-size: 1.15rem;
+  }
+
+  .brand__tagline {
+    font-size: 0.85rem;
+  }
+}
+
 @media (max-width: 720px) {
   .hero {
     padding-top: calc(var(--section-spacing) + 2.5rem);
